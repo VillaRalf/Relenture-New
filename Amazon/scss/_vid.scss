@@ -1,0 +1,39 @@
+ 
+
+    .vid-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        height: 770px;
+
+        video{
+            width: 600px;
+            height: 500px;
+            border-radius: 20px;
+
+        }
+    }
+
+@media (max-width:850px){
+    video{
+        width: 600px !important;
+    }
+}
+
+@media (max-width:680px){
+    video{
+        width: 400px !important;
+    }
+}
+@media (max-width:420px){
+    video{
+        width: 300px !important;
+    }
+}
+
+
