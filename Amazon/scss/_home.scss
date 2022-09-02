@@ -7,7 +7,7 @@
     background-image: url("assets/img/bg-color2.svg");
     background-repeat: no-repeat;
     background-size: cover;    
-    height: 855px;    
+    height: 800px;    
     
 
     .home-container{
@@ -17,7 +17,7 @@
         font-family: 'Poppins', sans-serif;
      
         .left-part{
-            margin-top: 170px;
+            margin-top: 190px;
             display: flex;
             flex-direction: column; 
 
@@ -132,7 +132,7 @@
 
 @media(max-width:1440px){
     .home{
-        height: 1400px;
+        height: 1300px;
         .home-container{
             display: flex ;
             flex-direction: column-reverse;
@@ -230,6 +230,7 @@
 }
 @media(max-width:578px){
     .home{
+        height: 1100px;
         .home-container{
             .left-part{
 
@@ -247,7 +248,7 @@
 
 @media(max-width:471px){
     .home{
-        height: 1100px;
+        height: 1000px;
         
         .home-container{
             
@@ -281,7 +282,7 @@
 
 @media(max-width:396px){
     .home{
-        height: 900px;
+        height: 850px;
 
         .home-container{
             
@@ -320,7 +321,7 @@
     }
     @media(max-width:350px){
         .home{
-            height: 950px;
+            height: 850px;
         }
         .right-part{
             .place-holder{

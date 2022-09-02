@@ -25,6 +25,9 @@
             <ul class="navlinks" id="links">
                 <li class="navitems"><a href="index.html" class="itemlinks">Home</a></li>
                 <li class="navitems"><a href="vide.html" class="itemlinks">Video</a></li>
+                <div class="cont">
+                    <li class="navitems"><a href="#product" class="itemlinks" onclick="togglePopup1()">Contact Us</a></li>
+                </div>
                 <li class="navitems"><a href="aboutus.html" class="itemlinks">About</a></li>
 
             </ul>
@@ -52,6 +55,39 @@
        </div>
     </div>
     
+
+     <!--popup box-->
+
+     <div class="popup" id="popup-1" >
+        <div class="overlay"></div>
+    
+
+        <div class="content">
+            <img class="close-btn" onclick="togglePopup1()" src="assets/img/close.png" alt="">
+            
+            <div class="box-contact">
+                <div class="popup-title">
+                    <h1>CONTACT <span>US</span> </h1>
+                </div>
+
+            <form action="https://formspree.io/f/xeqdozey" method="POST">   
+              <input name="Name" type="text" id="Name" class="feedback-input" placeholder="Enter your name" required="" />   
+              <input name="Sender" id="Sender"  type="email" class="feedback-input" placeholder="Enter your email" required=""/>
+              <textarea name="Message" class="feedback-input" id="Message" placeholder="Enter your messages" required=""></textarea>
+              <button id="btn" type="submit" value="SUBMIT">SUBMIT</button>
+              
+            </form>
+          </div>
+        </div>
+    </div>
+   <!--ABOUT-END-->
+   <script>
+    function togglePopup1(){
+        document.getElementById("popup-1").classList.toggle("active");
+    }
+</script>
+
+
     <div class="footer-all">
 
 
