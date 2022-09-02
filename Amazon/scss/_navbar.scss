@@ -1,9 +1,6 @@
 nav{
    display: flex;
 }
-.cont{
-   width: 130px;
-}
 .nav-links a {
    color: #fff;
    text-decoration: none;
@@ -11,6 +8,7 @@ nav{
 .nav-links{
   display: flex;
   justify-content: space-between;
+  
 
 }
 .nav-links li {
@@ -69,7 +67,9 @@ header.black nav{
 .navitems {
    padding: 1rem 1.5rem;
 }
-
+.cont{
+   width: 130px;
+}
 .navbar a {
    font-family: 'Poppins', sans-serif;
    color: white;
